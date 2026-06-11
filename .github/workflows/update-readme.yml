@@ -40,17 +40,17 @@ jobs:
           template: classic
           base: header
           config_timezone: Europe/Moscow
-          plugin_gists: yes
-          plugin_habits: no
+          plugin_gists: no
+          plugin_habits: yes
           plugin_habits_charts_type: classic
           plugin_habits_days: 14
-          plugin_habits_facts: no
+          plugin_habits_facts: yes
           plugin_habits_from: 200
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
           plugin_traffic: yes
           plugin_wakatime: yes
-          plugin_wakatime_sections: time languages, languages-graphs, os-graphs
-          plugin_wakatime_languages_ignored: markdown, plaintext, text, xml, yaml, JSON, .env file
+          plugin_wakatime_sections: time, languages, languages-graphs, os
+          plugin_wakatime_languages_ignored: markdown, plaintext, text, xml, yaml, JSON, TOML, .env file
           plugin_wakatime_days: 365
           plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
