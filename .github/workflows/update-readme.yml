@@ -38,7 +38,7 @@ jobs:
           # Options
           user: matv3ykaa
           template: classic
-          base: header, activity, community, repositories, metadata
+          base: header
           config_timezone: Europe/Moscow
           plugin_gists: yes
           plugin_habits: no
