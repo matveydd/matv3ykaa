@@ -37,7 +37,7 @@ jobs:
 
           # Options
           user: matv3ykaa
-          template: classic
+          template: terminal
           base: header
           config_timezone: Europe/Moscow
           plugin_gists: no
