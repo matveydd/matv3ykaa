@@ -36,7 +36,7 @@ jobs:
           token: ${{ secrets.GH_PAT }}
 
           # Options
-          user: matv3ykaa
+          user: matveydd
           template: classic
           base: header
           config_timezone: Europe/Moscow
